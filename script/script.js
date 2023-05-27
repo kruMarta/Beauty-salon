@@ -1,8 +1,3 @@
-// document.getElementById('service1').onclick = function(){
-//     console.log("click");
-//     window.location.href = "../pages/service-item.html";
-//     fetchData('1');
-// }
 document.getElementById('service1').addEventListener('click', () => openNewPage('1'));
 
 document.getElementById('service2').addEventListener('click', () => openNewPage('2'));
@@ -17,4 +12,9 @@ document.getElementById('service6').addEventListener('click', () => openNewPage(
 
 function openNewPage(id) {
     window.location.href = `../pages/service-item.html?id=${id}`;
+}
+
+function moveToReserv(){
+    console.log("click");
+    window.location.href = '../pages/reservation.html';
 }

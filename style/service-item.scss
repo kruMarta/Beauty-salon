@@ -22,10 +22,14 @@ $beige:#FAF4E8;
     background-repeat: no-repeat;
     height: 755px;
     p {
-        color: $brown;
+        color: $beige;
         font-family: $boska;
         font-size: 80px;
     }
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: $beige;
 }
 
 #logo {
@@ -101,5 +105,53 @@ $beige:#FAF4E8;
         left: 0;
         right: 0;
         margin: auto;
+    }
+}
+
+footer {
+    background-color: $beige;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    gap: 40px;
+    
+    .logotype {
+        width: 240px;
+        height: 150px;
+        position: absolute;
+        left: 0;
+        top: 1%;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--mainWheat);
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color: var(--customOrange);
+    }
+    
+    * {
+        padding-top: 2%;
+        font-size: 20px;
+        color: $brown;
+        font-family: $inter;
+    }
+
+    .quick-links {
+        margin-left: 100px;
+    }
+    
+    .contact-info li{
+        display: flex;
+        align-items: center;
     }
 }

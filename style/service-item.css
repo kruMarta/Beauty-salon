@@ -13,9 +13,13 @@
   height: 755px;
 }
 .first-block p {
-  color: #59200C;
+  color: #FAF4E8;
   font-family: "Boska Regular";
   font-size: 80px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  color: #FAF4E8;
 }
 
 #logo {
@@ -85,6 +89,47 @@
   left: 0;
   right: 0;
   margin: auto;
+}
+
+footer {
+  background-color: #FAF4E8;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  gap: 40px;
+}
+footer .logotype {
+  width: 240px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  top: 1%;
+}
+footer ul {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: var(--mainWheat);
+}
+footer a:hover {
+  text-decoration: underline;
+  color: var(--customOrange);
+}
+footer * {
+  padding-top: 2%;
+  font-size: 20px;
+  color: #59200C;
+  font-family: "Inter", sans-serif;
+}
+footer .quick-links {
+  margin-left: 100px;
+}
+footer .contact-info li {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=service-item.css.map */

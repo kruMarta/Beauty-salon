@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Boska Regular";
+  src: url(./fonts/Boska-Regular.otf);
+}
+@font-face {
+  font-family: "Northwell";
+  src: url(./fonts/Northwell.otf);
+}
+body {
+  overflow-x: hidden;
+}
+body h1 {
+  font-size: 80px;
+  color: #59200C;
+  font-family: "Boska Regular";
+  text-align: center;
+}
+body span {
+  font-family: "Northwell";
+  color: #E04015;
+}
+
+.first-block {
+  background-image: url(../images/reservation-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 755px;
+}
+.first-block p {
+  color: #59200C;
+  font-family: "Boska Regular";
+  font-size: 80px;
+}
+
+#logo {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  height: 80%;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  color: #59200C;
+}
+
+.services {
+  height: 1500px;
+  background-color: #FAF4E8;
+  position: relative;
+}
+.services .collapsible {
+  background-color: #E04015;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+.services .active, .services .collapsible:hover {
+  background-color: #a22907;
+}
+.services .collapsible:after {
+  content: "+";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.services .active:after {
+  content: "−";
+}
+.services .content {
+  width: 70%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+.services .content .block {
+  display: flex;
+}
+.services .content img {
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+}
+.services .content strong {
+  color: #59200C;
+  font-family: "Boska Regular";
+  font-size: 30px;
+}
+.services .content p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #666666;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.services .content span {
+  font-size: 34px;
+}
+.services .serv-container {
+  position: absolute;
+  left: 15%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=reservation.css.map */

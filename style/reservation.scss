@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Boska Regular";
+    src: url(./fonts/Boska-Regular.otf);
+}
+
+@font-face {
+    font-family: "Northwell";
+    src: url(./fonts/Northwell.otf);
+}
+
+$inter: 'Inter', sans-serif;
+$boska: "Boska Regular";
+$northwell: "Northwell";
+$orange: #E04015;
+$gray: #666666;
+$brown: #59200C;
+$beige:#FAF4E8;
+
+
+body {
+
+    overflow-x: hidden;
+    h1 {
+        font-size: 80px;
+        color: $brown;
+        font-family: $boska;
+        text-align: center;
+    }
+
+    span {
+        font-family: $northwell;
+        color: $orange;
+    }
+}
+
+.first-block {
+    background-image: url(../images/reservation-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 755px;
+    p {
+        color: $brown;
+        font-family: $boska;
+        font-size: 80px;
+    }
+}
+
+#logo {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 80%;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: $brown;
+}
+
+.services {
+    height: 1500px;
+    background-color: $beige;
+    position: relative;
+
+    .collapsible {
+        background-color: $orange;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 70%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+    }
+    
+    .active, .collapsible:hover {
+        background-color: #a22907;
+    }
+    
+    .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2212";
+    }
+    
+    .content {
+        width: 70%;
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: white;
+
+        .block {
+            display: flex;
+        }
+        
+
+
+        img {
+            width: 205px;
+            height: 205px;
+            padding: 10px;
+        }
+
+        strong {
+            color: $brown;
+            font-family: $boska;
+            font-size: 30px;
+        }
+
+        p {
+            font-family: $inter;
+            font-size: 20px;
+            color: $gray;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        span {
+            font-size: 34px;
+        }
+    }
+    
+    .serv-container {
+        position: absolute;
+        left: 15%;
+        width: 100%;
+    }
+}
+
