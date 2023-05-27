@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Boska Regular";
+  src: url(./fonts/Boska-Regular.otf);
+}
+@font-face {
+  font-family: "Northwell";
+  src: url(./fonts/Northwell.otf);
+}
+.first-block {
+  background-image: url(../images/service-item-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 755px;
+}
+.first-block p {
+  color: #59200C;
+  font-family: "Boska Regular";
+  font-size: 80px;
+}
+
+#logo {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  height: 80%;
+}
+
+.first-block-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-block-text p {
+  text-align: center;
+}
+.first-block-text img {
+  width: 70%;
+}
+
+.service-block {
+  height: 800px;
+  background-color: #FAF4E8;
+  position: relative;
+}
+.service-block * {
+  position: absolute;
+}
+.service-block img {
+  width: 500px;
+  height: 320px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  right: 5%;
+  top: 7%;
+}
+.service-block h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: "Northwell";
+  color: #E04015;
+  width: 40%;
+  top: 12%;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.service-block p {
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 24px;
+  width: 55%;
+  top: 30%;
+}
+.service-block button {
+  width: 250px;
+  height: 55px;
+  background-color: transparent;
+  border: 2px solid #E04015;
+  color: #59200C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/*# sourceMappingURL=service-item.css.map */
