@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "Boska Regular";
+    src: url(./fonts/Boska-Regular.otf);
+}
+
+@font-face {
+    font-family: "Northwell";
+    src: url(./fonts/Northwell.otf);
+}
+
+$inter: 'Inter', sans-serif;
+$boska: "Boska Regular";
+$northwell: "Northwell";
+$orange: #E04015;
+$gray: #666666;
+$brown: #59200C;
+$beige:#FAF4E8;
+
+
+body {
+
+    overflow-x: hidden;
+    h1 {
+        font-size: 80px;
+        color: $brown;
+        font-family: $boska;
+    }
+
+    span {
+        font-family: $northwell;
+        color: $orange;
+    }
+}
+
+.first-block {
+    background-color: $beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    p {
+        color: $brown;
+        font-family: $boska;
+        font-size: 80px;
+    }
+
+    a img {
+        width: 60%;
+    }
+}
+
+#logo {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 80%;
+    width: unset;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: $brown;
+}
+
+.cart {
+    height: 750px;
+    background-color: $beige;
+    
+
+    h1 {
+        font-size: 60px;
+        text-align: left;
+        padding: 50px;
+    }
+
+   
+    .final-text {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        p {
+            font-family: $boska;
+            color: $brown;
+            font-size: 34px;
+            padding-left: 40px;
+        }
+    
+        span{
+            font-size: 40px;
+        }
+    
+    }
+
+    .service {
+        box-shadow: 10px 5px 5px rgb(159, 159, 159);
+        margin-left: 50px;
+        width: 700px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+            width: 205px;
+            height: 205px;
+            padding: 10px;
+        }
+
+        p {
+            font-family: $boska;
+            color: $brown;
+            font-size: 30px;
+        }
+
+        span {
+            font-size: 32px;
+        }
+
+        .close {
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+
+    .reservation {
+        position: absolute;
+        width: 50%;
+        height: 750px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+
+        label {
+            font-family: $boska;
+            color: $brown;
+            font-size: 24px;
+        }
+
+        input, select, textarea {
+            width: 400px;
+            height: 50px;
+            background-color: transparent;
+            border: 2px solid $orange;
+        }
+
+        ::placeholder {
+            color: $gray;
+            padding-left: 10px;
+        }
+
+        select {
+            color: $gray;
+            padding-left: 10px;
+        }
+
+        select option:hover {
+            background-color: $orange;
+            color: white;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: $orange;
+        }
+
+        .reserv-btn {
+            width: 200px;
+            height: 50px;
+            background-color: transparent;
+            border: 2px solid $orange;
+            color: $orange;
+            font-size: 24px;
+            font-family: $boska;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .reserv-btn:hover {
+            background-color: #faa66a87;
+        }
+    }
+}
+
+footer {
+    background-color: $beige;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    gap: 40px;
+    
+    .logotype {
+        width: 250px;
+        height: 140px;
+        position: absolute;
+        left: 0;
+        top: 1%;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    * {
+        padding-top: 2%;
+        font-size: 18px;
+        color: $brown;
+        font-family: $inter;
+    }
+
+    .quick-links {
+        margin-left: 100px;
+    }
+    
+    .contact-info li{
+        display: flex;
+        align-items: center;
+    }
+}

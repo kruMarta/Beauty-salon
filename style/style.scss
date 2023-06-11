@@ -45,12 +45,20 @@ body {
         font-family: $boska;
         font-size: 80px;
     }
+
+    #cart img{
+        width: 60%;
+    }
 }
 
 .navbar {
     a {
         color: white;
         font-family: $inter;
+    }
+
+    a:hover {
+        color: $orange;
     }
 }
 
@@ -168,7 +176,7 @@ body {
     .services_item {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
 
         img {
             width: 240px;
@@ -398,7 +406,7 @@ body {
 
 footer {
     background-color: $beige;
-    height: 200px;
+    height: 170px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -406,8 +414,8 @@ footer {
     gap: 40px;
     
     .logotype {
-        width: 240px;
-        height: 150px;
+        width: 250px;
+        height: 140px;
         position: absolute;
         left: 0;
         top: 1%;
@@ -419,17 +427,15 @@ footer {
     
     a {
         text-decoration: none;
-        color: var(--mainWheat);
     }
     
     a:hover {
         text-decoration: underline;
-        color: var(--customOrange);
     }
     
     * {
         padding-top: 2%;
-        font-size: 20px;
+        font-size: 18px;
         color: $brown;
         font-family: $inter;
     }

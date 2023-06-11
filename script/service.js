@@ -1,8 +1,6 @@
-// Retrieve the URL parameter
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
-// Fetch data from the server based on the clicked element ID
 function fetchData(id) {
   fetch(`http://localhost:3000/data/${id}`)
     .then(response => response.json())

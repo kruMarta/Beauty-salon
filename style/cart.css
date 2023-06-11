@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Boska Regular";
+  src: url(./fonts/Boska-Regular.otf);
+}
+@font-face {
+  font-family: "Northwell";
+  src: url(./fonts/Northwell.otf);
+}
+body {
+  overflow-x: hidden;
+}
+body h1 {
+  font-size: 80px;
+  color: #59200C;
+  font-family: "Boska Regular";
+}
+body span {
+  font-family: "Northwell";
+  color: #E04015;
+}
+
+.first-block {
+  background-color: #FAF4E8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.first-block p {
+  color: #59200C;
+  font-family: "Boska Regular";
+  font-size: 80px;
+}
+.first-block a img {
+  width: 60%;
+}
+
+#logo {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  height: 80%;
+  width: unset;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  color: #59200C;
+}
+
+.cart {
+  height: 750px;
+  background-color: #FAF4E8;
+}
+.cart h1 {
+  font-size: 60px;
+  text-align: left;
+  padding: 50px;
+}
+.cart .final-text {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.cart .final-text p {
+  font-family: "Boska Regular";
+  color: #59200C;
+  font-size: 34px;
+  padding-left: 40px;
+}
+.cart .final-text span {
+  font-size: 40px;
+}
+.cart .service {
+  box-shadow: 10px 5px 5px rgb(159, 159, 159);
+  margin-left: 50px;
+  width: 700px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cart .service img {
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+}
+.cart .service p {
+  font-family: "Boska Regular";
+  color: #59200C;
+  font-size: 30px;
+}
+.cart .service span {
+  font-size: 32px;
+}
+.cart .service .close {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.cart .reservation {
+  position: absolute;
+  width: 50%;
+  height: 750px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.cart .reservation label {
+  font-family: "Boska Regular";
+  color: #59200C;
+  font-size: 24px;
+}
+.cart .reservation input, .cart .reservation select, .cart .reservation textarea {
+  width: 400px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #E04015;
+}
+.cart .reservation ::placeholder {
+  color: #666666;
+  padding-left: 10px;
+}
+.cart .reservation select {
+  color: #666666;
+  padding-left: 10px;
+}
+.cart .reservation select option:hover {
+  background-color: #E04015;
+  color: white;
+}
+.cart .reservation select:focus {
+  outline: none;
+  border-color: #E04015;
+}
+.cart .reservation .reserv-btn {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #E04015;
+  color: #E04015;
+  font-size: 24px;
+  font-family: "Boska Regular";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.cart .reservation .reserv-btn:hover {
+  background-color: rgba(250, 166, 106, 0.5294117647);
+}
+
+footer {
+  background-color: #FAF4E8;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  gap: 40px;
+}
+footer .logotype {
+  width: 250px;
+  height: 140px;
+  position: absolute;
+  left: 0;
+  top: 1%;
+}
+footer ul {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer * {
+  padding-top: 2%;
+  font-size: 18px;
+  color: #59200C;
+  font-family: "Inter", sans-serif;
+}
+footer .quick-links {
+  margin-left: 100px;
+}
+footer .contact-info li {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=cart.css.map */

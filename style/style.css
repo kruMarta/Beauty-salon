@@ -34,10 +34,16 @@ body span {
   font-family: "Boska Regular";
   font-size: 80px;
 }
+.first-block #cart img {
+  width: 60%;
+}
 
 .navbar a {
   color: white;
   font-family: "Inter", sans-serif;
+}
+.navbar a:hover {
+  color: #E04015;
 }
 
 #logo {
@@ -143,7 +149,7 @@ body span {
 .services .services_item {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .services .services_item img {
   width: 240px;
@@ -353,7 +359,7 @@ body span {
 
 footer {
   background-color: #FAF4E8;
-  height: 200px;
+  height: 170px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -361,8 +367,8 @@ footer {
   gap: 40px;
 }
 footer .logotype {
-  width: 240px;
-  height: 150px;
+  width: 250px;
+  height: 140px;
   position: absolute;
   left: 0;
   top: 1%;
@@ -372,15 +378,13 @@ footer ul {
 }
 footer a {
   text-decoration: none;
-  color: var(--mainWheat);
 }
 footer a:hover {
   text-decoration: underline;
-  color: var(--customOrange);
 }
 footer * {
   padding-top: 2%;
-  font-size: 20px;
+  font-size: 18px;
   color: #59200C;
   font-family: "Inter", sans-serif;
 }

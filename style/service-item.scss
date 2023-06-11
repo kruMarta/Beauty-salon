@@ -26,6 +26,10 @@ $beige:#FAF4E8;
         font-family: $boska;
         font-size: 80px;
     }
+
+    #cart img{
+        width: 60%;
+    }
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -51,6 +55,8 @@ $beige:#FAF4E8;
     img{
         width: 70%;
     }
+
+    
 }
 
 .service-block {
@@ -110,7 +116,7 @@ $beige:#FAF4E8;
 
 footer {
     background-color: $beige;
-    height: 200px;
+    height: 170px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -118,8 +124,8 @@ footer {
     gap: 40px;
     
     .logotype {
-        width: 240px;
-        height: 150px;
+        width: 250px;
+        height: 140px;
         position: absolute;
         left: 0;
         top: 1%;
@@ -141,7 +147,7 @@ footer {
     
     * {
         padding-top: 2%;
-        font-size: 20px;
+        font-size: 18px;
         color: $brown;
         font-family: $inter;
     }
